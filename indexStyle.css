@@ -1,0 +1,212 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9f9fb;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+h2,
+h3 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main-form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Add Student Form */
+.student-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.student-form input,
+.student-form select,
+.student-form button {
+    flex: 1 1 200px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.student-form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.student-form button:hover {
+    background: #0056b3;
+}
+
+.extra-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 10px;
+
+}
+
+.extra-actions form {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: auto
+}
+
+.extra-actions input,
+.extra-actions button,
+.extra-actions a {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.extra-actions button,
+.extra-actions a {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.extra-actions button:hover,
+.extra-actions a:hover {
+    background: #1e7e34;
+}
+
+.reset-btn {
+    background: #dc3545 !important;
+}
+
+.reset-btn:hover {
+    background: #a71d2a !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background: rgb(24, 47, 73);
+    color: #fff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background: #f4f6f9;
+
+}
+
+tr:hover {
+    background: #e8f0fd;
+}
+
+.action-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+
+.action-links a:first-child {
+    background: #ffc107;
+    color: #333;
+}
+
+.action-links a:first-child:hover {
+    background: #e0a800;
+    color: #fff;
+}
+
+.action-links a.delete-btn {
+    background: #dc3545;
+    color: #fff;
+}
+
+.action-links a.delete-btn:hover {
+    background: #a71d2a;
+}
+
+.action-links a.inBtn {
+    background: rgb(7, 151, 187);
+    color: #fff;
+}
+
+.action-links a.inBtn:hover {
+    background: rgb(4, 99, 122);
+}
+
+input[type="text"],
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button,
+a.button-link {
+    background: #3085d6;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+button:hover,
+a.button-link:hover {
+    background: #2563eb;
+}
+
+.reset-link {
+    margin-left: 10px;
+    color: #555;
+    text-decoration: none;
+}
+
+.reset-link:hover {
+    text-decoration: underline;
+}
